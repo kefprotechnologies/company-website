@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors from Style Guide */
+  --primary-dark: #0f172a;    /* Navy from image */
+  --primary-blue: #00a3e0;    /* Vibrant cyan/blue from image */
+  
+  --background: #ffffff;
+  --foreground: #0f172a;
+  
+  /* State Colors */
+  --info: #00a3e0;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  
+  /* Neutrals */
+  --gray-900: #111827;
+  --gray-700: #374151;
+  --gray-500: #6b7280;
+  --gray-300: #d1d5db;
+  --gray-100: #f3f4f6;
+  --bg-soft: #f9fafb;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary-blue);
+  --color-primary-dark: var(--primary-dark);
+  
+  --color-info: var(--info);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+
+  --color-gray-900: var(--gray-900);
+  --color-gray-700: var(--gray-700);
+  --color-gray-500: var(--gray-500);
+  --color-gray-300: var(--gray-300);
+  --color-gray-100: var(--gray-100);
+  --color-bg-soft: var(--bg-soft);
+
+  --font-sans: var(--font-geist-sans), "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, #f1f5f9 1px, transparent 1px),
+    linear-gradient(to bottom, #f1f5f9 1px, transparent 1px);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(var(--gray-300) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.service-card {
+  background-color: var(--primary-dark);
+}
+
+.why-card {
+  background-color: var(--bg-soft);
+}
+
+.footer-bg {
+  background-color: var(--primary-dark);
+}
