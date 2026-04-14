@@ -3,7 +3,7 @@
 import { homeServices } from "@/data/services";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect } from "react";
-import BorderBeam from "@/components/shared/BorderBeam";
+
 
 export default function Services() {
   const mouseX = useMotionValue(0);
@@ -63,7 +63,7 @@ export default function Services() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="p-8 md:p-10 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-start gap-6 md:gap-8 hover:bg-white/10 transition-colors relative group overflow-hidden"
             >
-              <BorderBeam />
+
               <div
                 className={`w-12 h-12 ${service.color} rounded-lg flex items-center justify-center`}
               >

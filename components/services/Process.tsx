@@ -5,7 +5,7 @@ import { processSteps } from "@/data/services";
 
 export default function Process() {
   return (
-    <section className="py-24 md:py-32 bg-white relative overflow-hidden hero-grid">
+    <section className="py-24 md:py-32 bg-white relative overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto mb-16 md:mb-20 space-y-4">
           <p className="text-[#00a3e0] font-bold tracking-[0.2em] uppercase text-xs">

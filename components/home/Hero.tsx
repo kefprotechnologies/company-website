@@ -23,7 +23,7 @@ export default function Hero() {
   }, [mouseX, mouseY]);
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-32 pb-24 hero-grid overflow-hidden">
+    <section className="relative min-h-[90vh] flex flex-col items-center justify-center pt-32 pb-24 overflow-hidden">
       {/* Background Glow */}
       <motion.div
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300 group-hover:opacity-100"

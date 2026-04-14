@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Search } from "lucide-react";
 import { teamMembers } from "@/data/team";
 import { motion } from "framer-motion";
-import BorderBeam from "@/components/shared/BorderBeam";
+
 
 
 export default function MemberList() {
@@ -33,7 +33,7 @@ export default function MemberList() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="p-8 md:p-10 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-center gap-6 group overflow-hidden relative transition-colors"
             >
-              <BorderBeam />
+
               <div
                 className={`w-20 h-20 md:w-24 md:h-24 ${member.color} rounded-full border-4 border-white/10 flex items-center justify-center text-white font-bold text-xl md:text-2xl shadow-xl`}
               >
@@ -63,7 +63,7 @@ export default function MemberList() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="p-8 md:p-10 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-center justify-center gap-6 relative group overflow-hidden"
           >
-            <BorderBeam />
+
             <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white">
               <Search className="w-6 h-6" />
             </div>

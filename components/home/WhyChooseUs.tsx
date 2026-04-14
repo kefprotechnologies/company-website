@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-24 md:py-32 bg-white relative overflow-hidden hero-grid">
+    <section className="py-24 md:py-32 bg-white relative overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

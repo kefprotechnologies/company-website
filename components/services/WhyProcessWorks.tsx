@@ -2,7 +2,7 @@
 
 import { processBenefits } from "@/data/services";
 import { motion } from "framer-motion";
-import BorderBeam from "@/components/shared/BorderBeam";
+
 
 export default function WhyProcessWorks() {
   return (
@@ -28,7 +28,7 @@ export default function WhyProcessWorks() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="p-8 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-start gap-6 hover:bg-white/10 transition-colors group cursor-default relative overflow-hidden"
             >
-              <BorderBeam />
+
               <div className="w-12 h-12 bg-[#00a3e0]/10 rounded-lg flex items-center justify-center text-[#00a3e0] group-hover:bg-[#00a3e0] group-hover:text-white transition-all relative z-10">
                 <benefit.icon className="w-6 h-6" />
               </div>

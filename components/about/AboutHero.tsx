@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AboutHero() {
   return (
-    <section className="relative min-h-[80vh] flex flex-col items-center justify-center pt-44 pb-24 hero-grid overflow-hidden">
+    <section className="relative min-h-[80vh] flex flex-col items-center justify-center pt-44 pb-24 overflow-hidden">
       <div className="container mx-auto px-6 max-w-5xl text-center space-y-10 md:space-y-12">
         {/* Badge */}
         <p className="text-[#00a3e0] font-bold tracking-[0.2em] uppercase text-xs">

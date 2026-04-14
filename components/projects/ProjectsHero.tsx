@@ -15,7 +15,7 @@ export default function ProjectsHero({
   setViewMode,
 }: ProjectsHeroProps) {
   return (
-    <section className="relative min-h-[60vh] flex flex-col items-center justify-center pt-44 pb-20 hero-grid overflow-hidden">
+    <section className="relative min-h-[60vh] flex flex-col items-center justify-center pt-44 pb-20 overflow-hidden">
       <div className="container mx-auto px-6 max-w-7xl space-y-8 md:space-y-10">
         <div className="text-center max-w-5xl mx-auto space-y-8">
           {/* Badge */}

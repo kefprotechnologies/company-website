@@ -5,7 +5,7 @@ import Link from "next/link";
 import { projects } from "@/data/projects";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect } from "react";
-import BorderBeam from "@/components/shared/BorderBeam";
+
 
 interface ProjectListProps {
   activeFilter: string;
@@ -76,7 +76,7 @@ export default function ProjectList({ activeFilter, viewMode }: ProjectListProps
                   idx < 4 ? "md:col-span-2 aspect-[4/5] md:aspect-[21/9]" : "col-span-1 aspect-[4/5] md:aspect-[4/3]"
                 }`}
               >
-                <BorderBeam />
+
                 <Image
                   src={project.src}
                   alt={project.alt}
@@ -103,7 +103,7 @@ export default function ProjectList({ activeFilter, viewMode }: ProjectListProps
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="relative aspect-[4/5] rounded-2xl md:rounded-[2rem] overflow-hidden group cursor-pointer border border-white/10"
               >
-                <BorderBeam />
+
                 <Image
                   src={project.src}
                   alt={project.alt}

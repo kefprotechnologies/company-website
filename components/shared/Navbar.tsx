@@ -66,7 +66,7 @@ export default function Navbar() {
       {/* Mobile Menu Overlay */}
       {isOpen && (
         <div className="absolute top-16 left-0 right-0 bg-white border-b border-gray-100 md:hidden animate-in slide-in-from-top duration-300">
-          <div className="flex flex-col p-6 space-y-4">
+          <div className="flex flex-col p-6 space-y-4 items-center text-center">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
