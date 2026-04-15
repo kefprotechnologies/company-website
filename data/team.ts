@@ -4,6 +4,7 @@ export interface TeamMember {
   initials: string;
   color: string;
   description: string;
+  image?: string;
 }
 
 export const teamMembers: TeamMember[] = [
@@ -13,6 +14,7 @@ export const teamMembers: TeamMember[] = [
     initials: "DD",
     color: "bg-blue-600",
     description: "Visionary leader driving Kefpro's mission to deliver innovative digital solutions across Africa and beyond.",
+    image: "/team/daniel.png",
   },
   {
     name: "Kephas Tetteh",
@@ -34,6 +36,7 @@ export const teamMembers: TeamMember[] = [
     initials: "EA",
     color: "bg-amber-600",
     description: "Product thinker who bridges user needs and business goals to craft thoughtful, purposeful digital experiences.",
+    image: "/team/eben.png",
   },
   {
     name: "Prosper Nsohlebna Atiah",
@@ -41,5 +44,6 @@ export const teamMembers: TeamMember[] = [
     initials: "PA",
     color: "bg-slate-700",
     description: "Creative force shaping Kefpro's visual identity and ensuring every interface is beautiful and intuitive.",
+    image: "/team/prosper.png",
   },
 ];
